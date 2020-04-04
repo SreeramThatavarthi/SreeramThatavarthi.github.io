@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="queries.css">
+        
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <header>
+       <div class="rules">
+           <button  class="btn-rules"><a href="#section-rules">Game Rules</a></button>
+         </div>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <input type="number" name="name" id="name" placeholder=" MaxScore" >
+            <button class="btn-enter" id="btnn"><i class="ion-checkmark-round"></i></button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <img src="imgs/dice-1.png" alt="Dice" class="dice">
+        </div>
+    </header>
+   <section id="section-rules">
+       <div class="gamerules">
+           <h1 class="he">Rules</h1>
+       </div>
+       <div class="steps">
+           <div>1.Roll the dice.</div>
+           <div>2.You can roll the dice any no of times.Everytime you roll the dice,the number on the dice gets added to the current score.</div>
+           <div> 3.When you click hold button ,your current score gets added to the total score and the turn goes to the next player.</div>
+           <div>4.If you roll '1',the current score becomes 0 and turn goes to next player.</div>
+           <div>5.If you roll '6' twice ,your total score becomes '0' and turn goes to next player.</div>
+           <div>6.You can set the maximum score to win.Select the max score and click on the "Tick button" to set the max score.</div>
+           <div><u>Note:</u>By default,Max score is set to 100 and You cannot change the maximum score while playing.</div>
+           <div>7.To start a new game ,click on the button "New game".</div>
+           <button class="sreeramio"><a href="https://github.com/SreeramThatavarthi">sreeram.io</a></button>
+        <script src="app.js"></script>
+    </body>
+</html>

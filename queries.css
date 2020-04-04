@@ -1,0 +1,154 @@
+@media only screen and (max-width:1200px)
+{
+}
+/* 768 to 1023 */
+@media only screen and (max-width:1023px)
+{
+    .wrapper {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    }
+    .player-name {
+    font-size: 30px;
+     }
+    .active .player-name::after {
+    font-size: 40px;
+    top: -5px;
+    right: 4px;
+   }
+    .player-score {
+    font-size: 70px;
+        margin-bottom: 90px;
+    }
+    .steps
+    {
+        font-size:22px;
+        padding:15px 40px;
+    }
+    .steps div
+    {
+        padding: 2px;
+    }
+    
+}
+/*481 to 767*/
+@media only screen and (max-width:767px)
+{
+    .steps
+    {
+        font-size:18px;
+        padding:15px 40px;
+    }
+    .steps div
+    {
+        padding:1%;
+    }
+    .wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    }
+    .player-0-panel,
+    .player-1-panel {
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 50px;
+     }
+    .player-name {
+    font-size: 25px;
+     }
+    .active .player-name::after {
+    font-size: 30px;
+    top: -5px;
+    right: 10px;
+   }
+    .btn-new {
+    top: 35px;
+    }
+    .btn-roll {
+    top: 380px;
+    }
+    .btn-hold {
+    top: 447px;
+}
+    .player-score {
+    font-size: 60px;
+    margin-bottom: 70px;
+    }
+    input {
+    top: 270px;
+    left: 46%;
+    font-size: 15px;
+    width: 12%;
+   }
+    .btn-enter {
+    top: 270px;
+    left: 58%;
+    width: 10%;
+    }
+}
+@media only screen and (max-width:480px)
+{
+     .steps
+    {
+        font-size:18px;
+        padding:15px 40px;
+    }
+    .steps div
+    {
+        padding:1%;
+    }
+    .wrapper {
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    }
+    .player-0-panel,
+    .player-1-panel {
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 50px;
+     }
+    .player-name {
+    font-size: 25px;
+     }
+    .active .player-name::after {
+    font-size: 30px;
+    top: -5px;
+    right: 10px;
+   }
+    .btn-new {
+    top: 35px;
+    }
+    .btn-roll {
+    top: 380px;
+    }
+    .btn-hold {
+    top: 447px;
+}
+    .player-score {
+    font-size: 60px;
+    margin-bottom: 70px;
+    }
+    input {
+    top: 270px;
+    left: 46%;
+    font-size: 15px;
+    width: 12%;
+   }
+    .btn-enter {
+    top: 270px;
+    left: 58%;
+    width: 10%;
+    }
+    
+}
