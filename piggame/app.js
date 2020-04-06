@@ -61,7 +61,16 @@ function init()
     document.querySelector('.player-0-panel').classList.add('active');
     document.getElementById('name').value = "Maxscore";
         document.querySelector('.btn-enter').addEventListener('click',function(){
-       maxscore=document.getElementById('name').value;
+
+        var a=document.getElementById('name').value;
+        if(a>0)
+        {
+            maxscore=a;
+        }
+        else{
+            document.getElementById('name').value=100;
+            setTimeout(function(){ alert("Negative digits not allowed"); }, 300);
+        }
          document.getElementById("btnn").style.display='none';
          document.getElementById("name").style.display='none';
         });

@@ -154,7 +154,7 @@ i {
 }
 
 .btn-new { top: 45px;}
-.btn-roll { top: 403px;}
+.btn-roll { top: 400px;}
 .btn-hold { top: 467px;}
 
 
@@ -191,7 +191,7 @@ input
 {
     top:340px;
     left:57%;
-    width:10%;
+    width:5%;
 }
 .rules
 {
