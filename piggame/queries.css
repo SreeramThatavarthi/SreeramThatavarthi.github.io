@@ -32,10 +32,6 @@
     {
         padding: 2px;
     }
-    .dice {
-    left: 80%;
-    top: 240px;
-   }
 }
 /*481 to 767*/
 @media only screen and (max-width:767px)
@@ -66,10 +62,10 @@
     right: 100px;
    }
     .btn-roll {
-    top: 270px;
+    top: 220px;
     }
     .btn-hold {
-    top: 315px;
+    top: 300px;
     }
     .player-score {
     font-size: 70px;
@@ -81,9 +77,13 @@
     font-size: 20px;
     width: 15%;
    }
-    .btn-new {
-    top: 70px;
-    font-size:90%; 
+   .gamerules
+   {
+       margin-left: 60px;
+   }
+   .btn-new {
+    top: 50px;
+     margin-bottom:15px; 
     }
     .btn-enter {
     top: 10px;
@@ -92,22 +92,53 @@
     }
     .player-current-box {
     margin:-180px -40px;
-    padding: 3px;
-         width: 30%;
+    padding: 5px;
+    width: 25%;
+    background-color:transparent;
    }
+   /* .player-current-box {
+    width: 30%;
+    margin:0 auto;
+    padding: 12px;
+   } */
+
     .player-current-label {
     text-transform: uppercase;
     margin-bottom: 5px;
-    font-size: 12px;
-    color: #222;
+    font-size: 14px;
+    margin-left: 400px;
+    text-color:#EB4D4D;
        
 }
 
 .player-current-score {
     font-size: 30px;
+    margin-left: 410px;
+    color:#000;
 }
-    
-    
+.steps
+{
+    padding:10px 30px;
+    width:125%;
+}
+
+.dice {
+    left: 80%;
+    top: 240px;
+   }
+   header
+   {
+       background-image: none;
+   }
+   .sreeramio
+   {
+       left:230px;
+   }
+   .btn-rules a
+   {
+    color:#EB4D4D;
+    margin-left: 80px;
+   }
 }
 @media only screen and (max-width:480px)
 {
