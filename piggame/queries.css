@@ -73,7 +73,7 @@
     }
     input {
     top: 10px;
-    left: 48%;
+    left: 52%;
     font-size: 20px;
     width: 15%;
    }
@@ -83,11 +83,12 @@
    }
    .btn-new {
     top: 50px;
-     margin-bottom:15px; 
+     margin-bottom:15px;
+     left:55%; 
     }
     .btn-enter {
     top: 10px;
-    left: 61%;
+    left: 64%;
     width: 8%;
     }
     .player-current-box {
@@ -105,15 +106,15 @@
     .player-current-label {
     text-transform: uppercase;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 20px;
     margin-left: 400px;
-    text-color:#EB4D4D;
+    color:#EB4D4D;
        
 }
 
 .player-current-score {
     font-size: 30px;
-    margin-left: 410px;
+    margin-left: 440px;
     color:#000;
 }
 .steps
