@@ -55,41 +55,47 @@
     .player-name {
     font-size: 30px;
         margin-top: 0px;
+        margin-left: -100px;
      }
     .active .player-name::after {
     font-size: 40px;
     top: -8px;
-    right: 100px;
+    left: 270px;
    }
     .btn-roll {
     top: 230px;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 60px;
     }
     .btn-hold {
     top: 270px;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 60px;
     }
     .player-score {
     font-size: 70px;
     margin-bottom: 60px;
+    margin-left: -80px;
     }
     input {
     top: 10px;
     left: 52%;
     font-size: 20px;
     width: 15%;
-   }
-   .gamerules
-   {
-       margin-left: 60px;
+    margin-left: 50px;
    }
    .btn-new {
     top: 50px;
      margin-bottom:15px;
-     left:55%; 
+     left:57%; 
     }
     .btn-enter {
     top: 10px;
     left: 64%;
     width: 8%;
+    margin-left: 40px;
     }
     .player-current-box {
     margin:-180px -40px;
@@ -114,7 +120,7 @@
 
 .player-current-score {
     font-size: 30px;
-    margin-left: 440px;
+    margin-left: 460px;
     color:#000;
 }
 .steps
@@ -126,6 +132,7 @@
 .dice {
     left: 80%;
     top: 240px;
+    margin-left: 25px;
    }
    header
    {
@@ -138,7 +145,13 @@
    .btn-rules a
    {
     color:#EB4D4D;
-    margin-left: 80px;
+   }
+   .btn-rules{
+       margin-left: 20px;
+   }
+   .gamerules .he
+   {
+       margin-left: 40px;
    }
 }
 @media only screen and (max-width:480px)
