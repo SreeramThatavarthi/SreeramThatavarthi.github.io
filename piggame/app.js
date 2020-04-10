@@ -14,7 +14,8 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
             {
                 total[activeplayer]=0;
                 document.querySelector('#score-'+activeplayer).textContent=total[activeplayer];
-                nextplayer();
+                gameplaying = false;
+               setTimeout(function(){nextplayer();},700);
             }
         else
             {
@@ -24,13 +25,14 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
             }
     }
     else{
-        nextplayer();
+        gameplaying = false;
+        setTimeout(function(){nextplayer();},700);
     }
         }
 });
 function nextplayer()
     {
-        
+        gameplaying = true;
         current=0;
         document.querySelector('#current-'+activeplayer).textContent=current;
         activeplayer === 0 ? activeplayer = 1 : activeplayer = 0; 
@@ -80,6 +82,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
         {
         total[activeplayer]+=current;
         document.querySelector('#score-'+activeplayer).textContent=total[activeplayer];
+        
         if(total[activeplayer] >= maxscore)
             {
                 gameplaying=false;
@@ -90,10 +93,13 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
             }
     else
         {
+             if(dice1 === 6)
+                {
+                    dice1=0;
+             }
         nextplayer();
         }
         }
 });
 document.querySelector('.btn-new').addEventListener('click', init);
-
 /* nav  */
