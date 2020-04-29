@@ -15,6 +15,7 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
                 total[activeplayer]=0;
                 document.querySelector('#score-'+activeplayer).textContent=total[activeplayer];
                 gameplaying = false;
+                dice1=0;
                setTimeout(function(){nextplayer();},700);
             }
         else
