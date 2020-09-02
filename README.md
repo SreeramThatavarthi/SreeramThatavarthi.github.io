@@ -11,4 +11,4 @@
 <img src="piggame/overview.png" style="border-radius:8px">
 </p>
 
-[Check it out here]: https://sreeramthatavarthi.github.io/piggame/
+[Check it out here]:https://sreeramthatavarthi.github.io/piggame/piggame/
